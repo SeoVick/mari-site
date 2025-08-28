@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Surpresas Mari & Tu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Surpresas Mari & Tu</h1>
+    <p>Raspadinha digital — escolha o filtro, embaralhe e raspe para revelar.</p>
+
+    <div class="controls">
+      <select id="filtro">
+        <option value="todas">Todas (300)</option>
+        <option value="fofas">Românticas & divertidas (200)</option>
+        <option value="picantes">Picantes (100)</option>
+      </select>
+      <button id="embaralhar">Embaralhar</button>
+      <button id="cobrir">Cobrir novamente</button>
+    </div>
+
+    <div class="raspadinha-container">
+      <canvas id="raspadinha"></canvas>
+      <div id="surpresa" class="surpresa"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

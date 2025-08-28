@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #fcdada, #f3b8ff, #ffebaa);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+h1 {
+  color: #d6336c;
+}
+
+.controls {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.controls select,
+.controls button {
+  padding: 8px 12px;
+  border-radius: 15px;
+  border: 1px solid #d6336c;
+  cursor: pointer;
+}
+
+.raspadinha-container {
+  position: relative;
+  margin-top: 20px;
+}
+
+#raspadinha {
+  width: 100%;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.surpresa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2b2b2b;
+  padding: 10px;
+  text-align:center;
+  pointer-events:none;
+}
